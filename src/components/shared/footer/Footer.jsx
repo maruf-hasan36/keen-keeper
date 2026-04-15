@@ -17,7 +17,7 @@ const Footer = () => {
                 Your personal shelf of meaningful connections. Browse, tend, and
                 nurture the relationships that matter most.
               </p>
-              <h1 className="text-xl mb-3 text-white">Social Links</h1>
+              <h1 className="text-xl mb-3 text-white">Social Link</h1>
             </div>
             <div className="grid grid-flow-col gap-4">
               <div>
