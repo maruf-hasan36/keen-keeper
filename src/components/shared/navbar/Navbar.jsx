@@ -20,7 +20,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-base-100 shadow-sm">
+    <nav className="bg-base-100 shadow-2xl">
       <div className="navbar flex-col md:flex-row gap-5 justify-between items-center container mx-auto">
         <div className="">
           <Image src={logo} alt="keen keeper" />
