@@ -4,7 +4,7 @@ import React from "react";
 
 const FriendCard = ({ friend }) => {
   // console.log(friend);
-  const { id,name, picture, tags, status, days_since_contact } = friend;
+  const { id, name, picture, tags, status, days_since_contact } = friend;
   return (
     <Link href={`/friends/${id}`} className="card bg-base-100  shadow-sm">
       <div className="card-body justify-center items-center space-y-2">
@@ -23,13 +23,13 @@ const FriendCard = ({ friend }) => {
           {tags.map((tag, index) => (
             <p
               key={index}
-              className="text-green-800 bg-green-300 rounded-full px-3 py-1 text-center"
+              className="text-green-700 bg-green-300 rounded-full px-3 py-1 text-center"
             >
               {tag}
             </p>
           ))}
         </div>
-        <div 
+        <div
           className={`card-actions rounded-full px-3 py-1 text-center text-white 
             ${status === "overdue" && " bg-red-700"} 
           ${status === "on-track" && " bg-green-900"}
