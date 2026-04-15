@@ -45,7 +45,7 @@ Built with **Next.js**, it delivers a fast, responsive and delightful user exper
 - Smooth animations and minimal design
 - Toast notifications using React Toastify
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Category      | Technology             |
 | ------------- | ---------------------- |
