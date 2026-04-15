@@ -18,9 +18,9 @@ const FriendDetailsPageRight = ({ matchFriend }) => {
   const date = new Date();
 
   const formatted = date.toLocaleDateString("en-US", {
-    year: "numeric",
+    years: "numeric",
     month: "short",
-    day: "numeric",
+    days: "numeric",
   });
 
   // console.log(formatted);
