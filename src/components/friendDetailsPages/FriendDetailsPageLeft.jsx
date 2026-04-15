@@ -48,7 +48,7 @@ const FriendDetailsPageLeft = ({ matchFriend }) => {
 
       <div className="flex py-4 rounded-lg bg-base-100 flex-row gap-3 items-center justify-center shadow-sm">
         <HiOutlineBellSnooze className="text-3xl" />
-        <p className="font-semibold text-xl">Snooze 2 weeks</p>
+        <p className="font-semibold text-xl">Snooze 3 weeks</p>
       </div>
       <div className="flex py-4 rounded-lg bg-base-100 flex-row gap-3 items-center justify-center shadow-sm">
         <BsArchive className="text-xl" />
